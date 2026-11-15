@@ -12,7 +12,7 @@ const playBtn = document.getElementById('playBtn');
 
 // Create the mole image element once to reuse it across squares
 const moleImg = document.createElement('img');
-moleImg.src = '/halloween-card.png';
+moleImg.src = '/imgs/halloween-card.png';
 moleImg.className = 'mole';
 
 // Note: querySelectorAll returns a NodeList, not a live array of standard DOM elements. 
