@@ -136,6 +136,11 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .header,
     .grid {
         width: 90vw;
